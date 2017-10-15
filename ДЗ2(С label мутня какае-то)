@@ -1,0 +1,151 @@
+<!DOCTYPE html> 
+	<html> 
+		<head><style> .kek{border: 1px solid black;} 
+			<title>Таблица</title> 
+		</style></head> 
+	<main> 
+		<div> 
+			<form action="searh.php" method="post">
+			<table border>
+  				<caption>Таблица</caption>
+  				<col style="width: 100px;">
+  				<col style="width: 100px;">
+  				<col style="width: 100px;">
+  				<col style="width: 100px;">
+  				<col style="width: 70px;">
+  				<col style="width: 70px;">
+  				<col style="width: 70px;">
+  				<col style="width: 70px;">
+  				<col style="width: 70px;">
+  				<col style="width: 70px;">
+ 				<thead>
+    				<tr>
+     					<td>Главная строка и столбец</td>
+     					<td>2 столбец</td>
+      				<td>3 столбец</td>
+     					<td>4 столбец</td>
+     					<td>5 столбец</td>
+     					<td>6 столбец</td>
+      				<td>7 столбец</td>
+     					<td>8 столбец</td>
+     					<td>9 столбец</td>
+     					<td>10 столбец</td>
+   					</tr>
+ 				</thead>
+  				<tfoot>
+    				<tr>
+     					<td>Строка 10</td>
+     					<td>2</td>
+      				<td colspan="2">3</td>
+     					<td>4</td>
+     					<td>5</td>
+     					<td colspan="2"><input type="radio">6</td>
+      				<td>7</td>
+     					<td>8</td>
+     					<td colspan="2">9</td>
+     					<td>10</td>
+    				</tr>
+  				</tfoot>
+  				<tbody>
+    				<tr>
+      				<td>Строка 2</td>
+     					<td>2</td>
+      				<td><input type="password" name="21">3</td>
+     					<td rowspan="4"></td>
+     					<td>5</td>
+     					<td><input type="text" name="...">6</td>
+      				<td><input type="file" name="ssd">7</td>
+     					<td>8</td>
+     					<td>9</td>
+     					<td>10</td>
+    				</tr>
+    				<tr>
+      				<td>Строка 3</td>
+     					<td>2</td>
+      				<td>3</td>
+     					<td>4</td>
+     					<td>5</td>
+     					<td><input type="reset" name="www">6</td>
+      				<td rowspan="3">7</td>
+     					<td>8</td>
+     					<td>9</td>
+     					<td>10</td>
+    				</tr>
+    				<tr>
+      				<td>Строка 4</td>
+     					<td>2</td>
+      				<td colspan="2" rowspan="2">3</td>
+     					<td><input type="button" name="56">4</td>
+     					<td>5</td>
+     					<td>6</td>
+      				<td>7</td>
+     					<td>8</td>
+     					<td>9</td>
+     					<td>10</td>
+    				</tr>
+    				<tr>
+     					<td>Строка 5</td>
+     					<td><input type="range" name="112">2</td>
+      				<td>3</td>
+     					<td>4</td>
+     					<td>5</td>
+     					<td>6</td>
+      				<td colspan="3">7</td>
+     					<td>8</td>
+     					<td>9</td>
+     					<td>10</td>
+    				</tr>
+    				<tr>
+     					<td>Строка 6</td>
+     					<td>2</td>
+      				<td><input type="search" name="21">3</td>
+     					<td>4</td>
+     					<td>5</td>
+     					<td>6</td>
+      				<td>7</td>
+     					<td>8</td>
+     					<td>9</td>
+     					<td>10</td>
+    				</tr>
+    				<tr>
+     					<td>Строка 7</td>
+     					<td>2</td>
+      				<td>3</td>
+     					<td>4</td>
+     					<td>5</td>
+     					<td><input type="tel" name="g+">6</td>
+      				<td>7</td>
+     					<td>8</td>
+     					<td>9</td>
+     					<td>10</td>
+    				</tr>
+    				<tr>
+     					<td>Строка 8</td>
+     					<td colspan="4">2</td>
+      				<td>3</td>
+     					<td><input type="checkbox" name="23">4</td>
+     					<td>5</td>
+     					<td>6</td>
+      				<td><input type="url" name="228">7</td>
+     					<td>8</td>
+     					<td>9</td>
+     					<td>10</td>
+    				</tr>
+    				<tr>
+     					<td>Строка 9</td>
+     					<td>2</td>
+      				<td><input type="button" name="//"></td>
+     					<td>4</td>
+     					<td>5</td>
+     					<td><input type="number" name="11">6</td>
+      				<td>7</td>
+     					<td>8</td>
+     					<td>9</td>
+     					<td>10</td>
+    				</tr>
+    			</form>
+  				</tbody>
+			</table>
+		</div> 
+	</main> 
+</html>
