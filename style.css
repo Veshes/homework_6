@@ -1,113 +1,575 @@
-/* Задание 1 */
-.task1__scary-text {
-	color:red;
-	font-family: Nosifer;
-	font-size: 1.5rem;
-}
+@font-face{
 
-/* Задание 2 */
-.task2__lyrics {
-	line-height: 100%;
-	letter-spacing: 2px; 
-}
+    font-family:"Formular";
 
-/* Задание 3 */
-.task3__italic { font-style: italic;
+    src: url('../fonts/Formular/Formular.eot');
 
-}
-.task3__oblique { font-style: oblique;
+    src: url('../fonts/Formular/Formular.eot?iefix') format('eot'),
 
-}
-.task3__bold { font-weight: bold;
+    url('../fonts/Formular/Formular.woff') format('woff'),
 
-}
-.task3__underlined { text-decoration: underline;
+    url('../fonts/Formular/Formular.ttf') format('truetype'),
 
-}
-.task3__overlined {text-decoration: overline;
+    url('../fonts/Formular/Formular.svg#webfont') format('svg');
 
-}
-.task3__linethrough {text-decoration: line-through;
+    font-weight: normal;
 
-}
-.task3__bonus { text-decoration: overline underline;
+    font-style: normal;
 
 }
 
-/* Задание 4 */
-.task4__block1 { border-radius: 34px; background-color: red;
+@font-face{
 
-}
-.task4__block2 { border-radius: 34px; background-color: yellow;
+    font-family:"Formular";
 
-}
-.task4__block3 { border-radius: 34px; background-color: green;
+    src: url('../fonts/FormularBold/Formular-Bold.eot');
 
-}
+    src: url('../fonts/FormularBold/Formular-Bold.eot?iefix') format('eot'),
 
-/* Задание 5 */
-.task5__name { color: pink;
+    url('../fonts/FormularBold/Formular-Bold.woff') format('woff'),
 
-}
-.task5__hex { color:#f64a8a;
+    url('../fonts/FormularBold/Formular-Bold.ttf') format('truetype'),
 
-}
-.task5__rgb { color: rgb(277,169,190);
+    url('../fonts/FormularBold/Formular-Bold.svg#webfont') format('svg');
 
-}
-.task5__rgba { color: rgba(277,169,190,0.5);
+    font-weight: bold;
 
-}
-.task5__hsl { color: hsl(300,100%,50%);
-
-}
-.task5__hsla { color:hsla(300,100%,50%,0.5);
+    font-style: normal;
 
 }
 
-/* Задание 6 */
-.task6__cat-parent {text-align: right;
+@font-face{
+
+    font-family:"Formular-medium";
+
+    src: url('../fonts/FormularMedium/Formular-Medium.eot');
+
+    src: url('../fonts/FormularMedium/Formular-Medium.eot?iefix') format('eot'),
+
+    url('../fonts/FormularMedium/Formular-Medium.woff') format('woff'),
+
+    url('../fonts/FormularMedium/Formular-Medium.ttf') format('truetype'),
+
+    url('../fonts/FormularMedium/Formular-Medium.svg#webfont') format('svg');
+
+    font-weight: medium;
+
+    font-style: normal;
 
 }
 
-/* Задание 7 */
-.task7__bear {
-  position: fixed;
-  z-index: 4;
-}
 
-/* Задание 8 */
-.task8__cage { position: absolute;
 
-}
+.maintitle{
 
-/* Задание 9 */
-.task9__spider-man {
-  position: relative;
-}
+    height: 60px;
 
-/* Задание 10 */
-.task10__pelmeshek {position: relative;
-height: 15px;
-bottom: 15px;
-}
+    margin-top: 34px;
 
-/* Бонусное задание 1 */
-.task-bonus1 {
+    margin-bottom: 36px;
+
+    font-family: Formular;
+
+    font-weight: bold;
+
+    font-size: 28px;
 
 }
 
-/* Бонусное задание 2 */
-.task-bonus2__sidebar {
+.shadoww{
 
-}
-.task-bonus2__content {
-
-}
-.task-bonus2__footer {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.21);
 
 }
 
-/* Бонусное задание 3 */
-.task-bonus3__flex {
+.zag1{
+
+    margin-top:57px;
+
+    margin-bottom:21px;
+
+    font-family: Formular-medium;
+
+    font-size:32px;
+
+    color:#4b721d;
+
+}
+
+.razdel1{
+
+    margin-bottom: 55px;
+
+    font-family: Formular;
+
+    font-weight: normal;
+
+    height:384px;
+
+    font-size:21px;
+
+    color:#515151;
+
+}
+
+.bp{
+
+    height: 384px;
+
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.21);
+
+    width:263px;
+
+}
+
+.raztm{
+
+    margin-left:29px;
+
+}
+
+.cost1{
+
+    font-size:28px;
+
+    float:left;
+
+    color:#9d9d9d;
+
+    margin-right:32px;
+
+}
+
+.cost2{
+
+    font-size:28px;
+
+
+
+    color:#4b721d;
+
+}
+
+A{
+
+    color:inherit;
+
+}
+
+A:hover{
+
+    text-decoration: none;
+
+    color:inherit;
+
+}
+
+A:visited{
+
+    color:inherit;
+
+}
+
+.fon1{
+
+    margin-right: 30px;
+
+    padding: 0 0 0 0;
+
+    color:#ffffff;
+
+    font-weight:bold;
+
+    font-size:42px;
+
+    width: 555px;
+
+    height: 302px;
+
+    border-radius: 2px;
+
+    background-color: rgba(46, 46, 46, 0.21);
+
+    background-image:url('images/cp-1.jpg');
+
+    background-size:100%;
+
+}
+
+.fon2{
+
+    padding: 0 0 0 0;
+
+    color:#ffffff;
+
+    font-weight:bold;
+
+    font-size:42px;
+
+    width: 555px;
+
+    height: 302px;
+
+    border-radius: 2px;
+
+    background-image:url(images/cp-2.png);
+
+}
+
+.fon3{
+
+    padding: 0 0 0 0;
+
+    color:#ffffff;
+
+    font-weight:bold;
+
+    font-size:42px;
+
+    width: 1140px;
+
+    height: 364.4px;
+
+    border-radius: 2px;
+
+    background-image:url(images/cp-3.png);
+
+}
+
+.fon4{
+
+
+
+    padding: 0 0 0 0;
+
+    color:#ffffff;
+
+    font-weight:bold;
+
+    font-size:42px;
+
+    width: 555px;
+
+    height: 302px;
+
+    border-radius: 2px;
+
+    background-image:url(images/cps-3.png);
+
+}
+
+.mask{
+
+    padding-top:126px;
+
+    text-align: center;
+
+    width: 555px;
+
+    height: 302px;
+
+    border-radius: 2px;
+
+    background-color: rgba(46, 46, 46, 0.21);
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+
+    z-index: 2;
+
+    max-width:100%;
+
+}
+
+.mask2{
+
+    padding-top:126px;
+
+    text-align: center;
+
+    width: 555px;
+
+    height: 302px;
+
+    border-radius: 2px;
+
+    background-color: rgba(0, 0, 0, 0.01);
+
+    z-index: 2;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+
+    max-width:100%;
+
+}
+
+.mask3{
+
+    padding-top:157px;
+
+    text-align: center;
+
+    width: 1140px;
+
+    height: 364.4px;
+
+    border-radius: 2px;
+
+    background-color: rgba(46, 46, 46, 0.21);
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+
+    z-index: 2;
+
+}
+
+.marg{
+
+    margin-top: 30px;
+
+    margin-bottom: 85.6px;
+
+}
+
+
+
+.grey{
+
+    width: 100%;
+
+    background: #f4f4f4;
+
+    height: 100%;
+
+    padding-top:36px;
+
+    color:#666666;
+
+    font-size:21px;
+
+    font-family:Formular;
+
+    background-size: 100%;
+
+}
+
+.len{
+
+    width: 100%;
+
+    text-align: center;
+
+    color:#c3c3c3;
+
+    font-size:16px;
+
+    margin: 15px 0 20px 0;
+
+}
+
+.navbar {
+
+    background: #ffffff;
+
+	border: none;
+
+	border-radius: 0;
+
+    height: 94px;
+
+}
+
+
+
+.mt1{
+
+    color:#80bb3d !important;
+
+    font-family: Formular;
+
+
+
+}
+
+.navbar-default .navbar-nav > li > a {
+
+    font-family: 'Formular', sans-serif, arial;
+
+    color: #4b721d;
+
+    font-size:28px;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+
+	color: #4b721d;
+
+}
+
+
+
+.navbar-default .navbar-nav>li.active>a {
+
+	color: #4b721d;
+
+}
+
+
+
+.navbar-default .navbar-nav>li.active>a:hover {
+
+	color: #4b721d;
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+
+    background-color: #3344ff;
+
+    color:#ffffff;
+
+}
+
+.dropdown-menu{
+
+    background-color: #ffffff !important;
+
+}
+
+ul{
+
+    background:white;
+
+}
+
+@media (max-width: 577px){
+
+    .big{
+
+        display:none;
+
+    }
+
+    .maxfix{
+
+        width:100%;
+
+        max-width: 100%;
+
+    }
+
+}
+
+@media (min-width: 578px){
+
+    .small{
+
+        display:none;
+
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .conct1{
+
+        display:none;
+
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .toosmall{
+
+        display:none;
+
+    }
+
+}
+
+@media (max-width: 1199px) {
+
+    .nemo{
+
+        margin-bottom: 20px;
+
+    }
+
+    .toobig{
+
+        display:none;
+
+    }
+
+    .navbar-header {
+
+        float: none;
+
+    }
+
+    .navbar-left,.navbar-right {
+
+        float: none !important;
+
+    }
+
+    .navbar-toggle {
+
+        display: block;
+
+    }
+
+    .navbar-collapse {
+
+        border-top: 1px solid transparent;
+
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+
+    }
+
+    .navbar-fixed-top {
+
+        top: 0;
+
+        border-width: 0 0 1px;
+
+    }
+
+    .navbar-collapse.collapse {
+
+        display: none!important;
+
+    }
+
+    .navbar-nav {
+
+        float: none!important;
+
+        margin-top: 7.5px;
+
+    }
+
+    .navbar-nav>li {
+
+        float: none;
+
+    }
+
+    .navbar-nav>li>a {
+
+        padding-top: 10px;
+
+        padding-bottom: 10px;
+
+    }
+
+    .collapse.in{
+
+        display:block !important;
+
+    }
+
 }
